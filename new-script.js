@@ -5,7 +5,7 @@ document.getElementById('btnEncrypt').addEventListener('click', function() {
         return;
     }
     const codedMessage = codeMessage(userInput);
-    document.getElementById('output').innerText = Mensaje codificado: ${codedMessage};
+    document.getElementById('output').innerText = `Mensaje codificado: ${codedMessage}`;
 });
 
 document.getElementById('btnDecrypt').addEventListener('click', function() {
@@ -15,7 +15,7 @@ document.getElementById('btnDecrypt').addEventListener('click', function() {
         return;
     }
     const decodedMessage = decodeMessage(userInput);
-    document.getElementById('output').innerText = Mensaje decodificado: ${decodedMessage};
+    document.getElementById('output').innerText = `Mensaje decodificado: ${decodedMessage}`;
 });
 
 function codeMessage(message) {
