@@ -71,3 +71,6 @@ body {
 
     .button {
         flex: 100%;
+        margin: 5px 0;
+    }
+}
